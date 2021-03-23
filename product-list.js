@@ -64,7 +64,7 @@ const ProductsInfo = (i) => {
         e.target.style.display= 'block';
         //return cardInfo ;
     }
-    const renderCard = (card, index) => {
+       const renderCard = (card, index) => {
         return (
             <div className="cards">
                 <Card  style={{ width: '18rem' }}   >
@@ -76,9 +76,13 @@ const ProductsInfo = (i) => {
                         </Card.Text>
                     </Card.Body>
                 </Card>
+                <footer className="FooterPage">
+                    <p>2021 © copyright </p>
+                </footer>
             </div>
         );
     };
+
     return <div className="grid">{cardInfo.map(renderCard)}</div>;
 };
 export default ProductsInfo;
