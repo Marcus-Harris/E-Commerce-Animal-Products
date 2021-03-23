@@ -16,11 +16,7 @@ code {
   text-align: center;
 }
 
-.productCards {
-  border: black 1px solid;
-}
-
-#productContainer {
+.grid {
   display: grid;
   grid-template: 1fr 1fr / 1fr 1fr 1fr;
 }
@@ -28,4 +24,11 @@ code {
 img {
   width: 200px;
   height: 200px;
+}
+
+.cards {
+  display: flex;
+  justify-self: center;
+  margin: 10px;
+  border: solid black 3px;
 }
