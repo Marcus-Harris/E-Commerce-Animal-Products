@@ -2,11 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
-import Board from './app';
+// import Board from './app';
+import ProductsInfo from './product-list';
 
 
 
-ReactDOM.render(<Board />, document.getElementById('root'));
+ReactDOM.render(<ProductsInfo />, document.getElementById('root'));
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
