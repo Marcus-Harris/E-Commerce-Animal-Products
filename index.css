@@ -30,8 +30,10 @@ img {
   display: flex;
   justify-self: center;
   margin: 10px;
-  border: solid black 3px;
+  border: solid black 2px;
 }
+
+
 
 .FooterPage{
   margin-top: 1rem;
@@ -43,4 +45,28 @@ img {
   width: 100%;
   height: 50px;
   text-align: center;
+}
+
+.descButton {
+  border: none;
+  padding-right: 3%;
+  margin: auto;
+  height: 100px;
+  background-color:#57e6ff;
+  border-radius: 10%;
+}
+
+.descButton:hover {
+  background-color: #00BFFF;
+}
+
+.aboutpage-cards {
+  display: grid;
+  grid-template: 1fr / 1fr 1fr;
+  text-align: center;
+}
+
+.aboutpage-card {
+  display: flex;
+  justify-self: center;
 }
