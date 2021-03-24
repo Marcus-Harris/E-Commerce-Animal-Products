@@ -4,22 +4,23 @@ import { LinkContainer } from 'react-router-bootstrap'
 
 const Header = () => {
     return (
-        <Navbar bg="light" expand="lg">
+        <Navbar className="navBar" expand="lg">
             <LinkContainer to="/">
-                <Navbar.Brand>Pet World</Navbar.Brand>
+                <Navbar.Brand className="navBarHome">Pet World</Navbar.Brand>
             </LinkContainer>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
-                <Nav className="mr-auto">
+                <Nav className="navBarLinks">
                     <LinkContainer to="/products">
-                        <Nav.Link>Products List</Nav.Link>
+                        <Nav.Link className="productLink">Available Animals</Nav.Link>
                     </LinkContainer>
                     <LinkContainer to="/about">
-                        <Nav.Link>About</Nav.Link>
+                        <Nav.Link className="aboutLink">About</Nav.Link>
                     </LinkContainer>
                 </Nav>
             </Navbar.Collapse>
         </Navbar>
     )
 }
-export default Header;
+
+export default Header
