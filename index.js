@@ -10,7 +10,6 @@ import reportWebVitals from './reportWebVitals';
 import ProductsInfo from './product-list';
 import Footer from './footer'
 
-
 ReactDOM.render(
     <React.StrictMode>
          <Router>
@@ -25,7 +24,7 @@ ReactDOM.render(
     document.getElementById('root')
   );
 
-  ReactDOM.render(<Footer />, document.getElementById('footer'));
+  ReactDOM.render(<Footer />, document.getElementById('footerContainer'));
 
 
 // // If you want to start measuring performance in your app, pass a function
