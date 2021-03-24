@@ -15,7 +15,7 @@ const Header = () => {
                         <Nav.Link className="productLink">Available Animals</Nav.Link>
                     </LinkContainer>
                     <LinkContainer to="/about">
-                        <Nav.Link className="aboutLink">About</Nav.Link>
+                        <Nav.Link className="aboutLink">About Us</Nav.Link>
                     </LinkContainer>
                 </Nav>
             </Navbar.Collapse>
@@ -23,4 +23,4 @@ const Header = () => {
     )
 }
 
-export default Header
+export default Header;
