@@ -5,7 +5,7 @@ import { Card } from 'react-bootstrap';
 const About = () => {
     return (
         <div>
-            <h1>This is About Page</h1>
+            <h1 className="about-h1">This is About Page</h1>
             <div className="aboutpage-cards">
                 <Card className="aboutpage-card" style={{ width: '18rem' }}>
                     <Card.Img variant="top" src="holder.js/100px180" />
@@ -29,4 +29,5 @@ const About = () => {
         </div>
     )
 }
+
 export default About;
