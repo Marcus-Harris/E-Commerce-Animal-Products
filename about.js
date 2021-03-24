@@ -10,7 +10,7 @@ const About = () => {
         {
             name: "Marcus",
             position: "Lion Tamer",
-            description: "I",
+            description: "I made friends with all of the lions (and tigers, and cheetahs)",
             image: "https://media-exp1.licdn.com/dms/image/C4E03AQEYEbd8xae8JA/profile-displayphoto-shrink_400_400/0/1576643932617?e=1622073600&v=beta&t=Inhk5dqe0zeTyx4-iMGgx85uI0E3sNpV3PO187xy3kE"
         },
         {
@@ -27,8 +27,8 @@ const About = () => {
         },
         {
             name: "Shweta",
-            position: "",
-            description: "",
+            position: "Store Owner",
+            description: "Found and rescued these animals from poachers. She raised them all herself!",
             image: "https://scontent-atl3-2.xx.fbcdn.net/v/t1.0-9/s851x315/13092013_805836786213373_4331625023104236667_n.jpg?_nc_cat=104&ccb=1-3&_nc_sid=da31f3&_nc_ohc=ZIZxe1mSsiQAX8S1Y-k&_nc_ht=scontent-atl3-2.xx&tp=7&oh=d01498434a30418652ab10be623f3468&oe=608175FC"
         },
         {
@@ -39,8 +39,8 @@ const About = () => {
         },
     ];
 
-    // isFlipped array to store flip status for each card,every card is display-false
-  const [isFlipped, setFlip] = useState([false, false, false, false, false, false, false, false, false]);
+  // isFlipped array to store flip status for each card,every card is display-false
+  const [isFlipped, setFlip] = useState([false, false, false, false, false]);
 
   const handleClickFlip = (i) => {
 
@@ -56,7 +56,6 @@ const About = () => {
     newArr[i] = false;
     setFlip(newArr);
   }
-
 
   const renderCard = (card, index) => {
     return (
