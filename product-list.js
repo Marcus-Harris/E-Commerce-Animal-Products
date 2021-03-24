@@ -57,27 +57,27 @@ const ProductsInfo = (i) => {
       show: false
     },
     {
-      id: "6",
-      name: "Jellyfish",
+      id: "7",
+      name: "Panda",
       price: "$1,000",
-      description: "These creatures have global distribution. You can find them in every ocean on Earth",
-      image: "https://images.unsplash.com/photo-1501561942-ec1065e470aa?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1051&q=80",
+      description: "Kevin",
+      image: "https://images.unsplash.com/photo-1564349683136-77e08dba1ef7?ixid=MXwxMjA3fDB8MHxzZWFyY2h8M3x8YW5pbWFsc3xlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=60",
       show: false
     },
     {
-      id: "6",
-      name: "Jellyfish",
+      id: "8",
+      name: "Sting Ray",
       price: "$1,000",
-      description: "These creatures have global distribution. You can find them in every ocean on Earth",
-      image: "https://images.unsplash.com/photo-1501561942-ec1065e470aa?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1051&q=80",
+      description: "Stingy the stingy ray",
+      image: "https://images.unsplash.com/photo-1513039235271-5937eefe2959?ixid=MXwxMjA3fDB8MHxzZWFyY2h8M3x8c3RpbmclMjByYXl8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=60",
       show: false
     },
     {
-      id: "6",
-      name: "Jellyfish",
+      id: "9",
+      name: "Parrot",
       price: "$1,000",
-      description: "These creatures have global distribution. You can find them in every ocean on Earth",
-      image: "https://images.unsplash.com/photo-1501561942-ec1065e470aa?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1051&q=80",
+      description: "Edward the parrot",
+      image: "https://thumbs-prod.si-cdn.com/g-KDLxcm1UG30jZJuqmbTmIGhgQ=/fit-in/1600x0/https://public-media.si-cdn.com/filer/81/19/81199c94-e8aa-4438-9db5-0d76b77ec2ee/istock_000014986932_medium.jpg",
       show: false
     },
   ];
