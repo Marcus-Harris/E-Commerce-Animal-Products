@@ -58,10 +58,14 @@ img {
   font-weight: bold;
   font-family: 'Pangolin', cursive;
   background-color:#1e8046;
+  font-size: 26px;
+  transition: 0.5s;
 }
 
 .descButton:hover {
   background-color: #024d21;
+  font-size: 32px;
+  transition: 0.5s;
 }
 
 .about-h1 {
