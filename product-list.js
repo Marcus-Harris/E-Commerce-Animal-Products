@@ -56,10 +56,34 @@ const ProductsInfo = (i) => {
       image: "https://images.unsplash.com/photo-1501561942-ec1065e470aa?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1051&q=80",
       show: false
     },
+    {
+      id: "6",
+      name: "Jellyfish",
+      price: "$1,000",
+      description: "These creatures have global distribution. You can find them in every ocean on Earth",
+      image: "https://images.unsplash.com/photo-1501561942-ec1065e470aa?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1051&q=80",
+      show: false
+    },
+    {
+      id: "6",
+      name: "Jellyfish",
+      price: "$1,000",
+      description: "These creatures have global distribution. You can find them in every ocean on Earth",
+      image: "https://images.unsplash.com/photo-1501561942-ec1065e470aa?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1051&q=80",
+      show: false
+    },
+    {
+      id: "6",
+      name: "Jellyfish",
+      price: "$1,000",
+      description: "These creatures have global distribution. You can find them in every ocean on Earth",
+      image: "https://images.unsplash.com/photo-1501561942-ec1065e470aa?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1051&q=80",
+      show: false
+    },
   ];
   
   // isFlipped array to store flip status for each card,every card is display-false
-  const [isFlipped, setFlip] = useState([false, false, false, false, false, false]);
+  const [isFlipped, setFlip] = useState([false, false, false, false, false, false, false, false, false]);
 
   const handleClickFlip = (i) => {
 
@@ -87,27 +111,25 @@ const ProductsInfo = (i) => {
       <ReactCardFlip isFlipped={isFlipped[index]} flipDirection="horizontal">
 
         {/* div without flip */}
-        <div className="cards">
-          <Card style={{ width: '18rem' }}   >
+        <div className="cards front-cards">
+          <Card style={{ width: '24rem' }}   >
             <Card.Img variant="top" src={card.image} />
-
           </Card>
-          <button onClick={() => handleClickFlip(index)}>Click to flip</button>
+          <button className="descButton" onClick={() => handleClickFlip(index)}>Details</button>
         </div>
 
         {/* div with unflip */}
 
-        <div className="cards">
-          <Card style={{ width: '18rem' }}   >
+        <div className="cards back-cards">
+          <Card style={{ width: '24rem' }}   >
             <Card.Body >
               <Card.Title style={{ display: 'block' }}  >{card.name} - {card.price}</Card.Title>
-
               <Card.Text>
                 {card.description}
               </Card.Text>
             </Card.Body>
           </Card>
-          <button className="descButton" onClick={() => handleClickUnFlip(index)}>Click to Unflip</button>
+          <button className="descButton" onClick={() => handleClickUnFlip(index)}>Show {card.name}</button>
         </div>
       </ReactCardFlip>
     );
